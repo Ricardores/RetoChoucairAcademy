@@ -34,7 +34,7 @@ public class UtestRegisterStepDefiniton {
                UtestAddress.ubicationData(utestData),
                UtestDevices.deviceData(utestData),
                UtestPassword.password(utestData)
-               
+
        );
     }
     @Then("^Se valida el titulo del ultimo paso (.*)$")
